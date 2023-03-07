@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans&family=Lobster&family=Montserrat+Subrayada:wght@700&family=Moon+Dance&family=Oswald:wght@500;600;700&family=Pacifico&family=Padyakke+Expanded+One&family=Playfair+Display:ital,wght@0,700;1,800&family=Poppins&family=Rowdies:wght@700&family=Rubik+Gemstones&family=Signika&family=Sofia+Sans&family=Teko:wght@300;400;500;700&display=swap');
+
+body{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url('./images/istockphoto-818517624-170667a.jpg');
+   overflow: hidden;
+   padding: 10px;
+}
+
+.container{
+    position: relative;
+    background-color: #ffffffb0;
+    width: 450px;
+    height: 350px; 
+    padding: 30px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0.5);
+    border-radius: 10px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.heading{
+
+    color: #4d293f;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.rate{
+    margin-top: 10px;
+}
+
+.rate1{
+    color: #848484;
+}
+
+.rate2{
+   margin-top: 1.5rem; 
+   font-size: 1.5rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.swap{
+    align-self: flex-end;
+    padding: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.options select{
+    padding: 2%;
+    width: 75px;
+}
+
+.input input{
+    all: unset;
+    display: inline;
+    margin-top: 1rem;
+    width: 175px;
+    height: 48px;
+    padding: 5px;
+    background-color: #ebebeb;
+    color: #848484;
+    font-size: 1.5rem;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: 500;
+    appearance: textfield;
+}
+
+.target{
+    transform: translateX(-5%);
+}
+
+.result{
+    margin-top: 1.5rem;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #201b3ce4;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.result:active{
+    background-color: #342f56;
+}
